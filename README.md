@@ -10,7 +10,9 @@ Rename <b>.env.example</b> file to <b>.env</b>.
 
 ### - Running Project on Local Development Server
 >composer install
+
 >php php artisan key:generate
+
 >php artisan serve
 
 ## API DOCUMENTATION
