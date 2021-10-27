@@ -9,6 +9,29 @@ use Illuminate\Support\Facades\Http;
 
 class MovieController extends Controller
 {
+
+	/**
+     * @OA\Get(
+     *      path="/api/movies?page={page_number}",
+     *      operationId="getMoviesList",
+     *      tags={"News"},
+     *      summary="Get list of movies per page",
+     *      description="Returns list of movies per page",
+     *      @OA\Parameter(
+     *          name="page_number",
+     *          description="page number",
+     *          required=true,
+     *          in="path",
+     *          @OA\Schema(
+     *              type="integer"
+     *          )
+     *      ),
+     *      @OA\Response(
+     *          response=200,
+     *          description="Successful operation",
+     *       ),
+     *     )
+     */
     public function index(Request $request)
 	{
 		$movies = Http::get('https://ghibliapi.herokuapp.com/films')->json();
