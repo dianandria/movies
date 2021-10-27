@@ -14,7 +14,7 @@ class MovieController extends Controller
      * @OA\Get(
      *      path="/api/movies?page={page_number}",
      *      operationId="getMoviesList",
-     *      tags={"News"},
+     *      tags={"Movies"},
      *      summary="Get list of movies per page",
      *      description="Returns list of movies per page",
      *      @OA\Parameter(
