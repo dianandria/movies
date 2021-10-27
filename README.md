@@ -1,9 +1,9 @@
 ## installation
 
-### Open your terminal and navigate to project root directory
-
 ### - Clone
 > git clone  https://github.com/dianandria/movies.git
+
+### Open your terminal and navigate to project root directory
 
 ### - Running Project on Local Development Server
 >php artisan serve
