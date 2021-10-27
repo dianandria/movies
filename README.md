@@ -3,9 +3,14 @@
 ### - Clone
 > git clone  https://github.com/dianandria/movies.git
 
+### Config
+Rename <b>.env.example</b> file to <b>.env</b>. 
+
 ### Open your terminal and navigate to project root directory
 
 ### - Running Project on Local Development Server
+>composer install
+>php php artisan key:generate
 >php artisan serve
 
 ## API DOCUMENTATION
