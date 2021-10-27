@@ -1,3 +1,23 @@
+## installation
+
+### - Clone
+> git clone  https://github.com/dianandria/movies.git
+
+### Config
+Rename <b>.env.example</b> file to <b>.env</b>. 
+
+### Open your terminal and navigate to project root directory
+
+### - Running Project on Local Development Server
+>composer install
+
+>php artisan key:generate
+
+>php artisan serve
+
+## API DOCUMENTATION
+>/api/documentation
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
